@@ -1474,7 +1474,11 @@
  gave_up_pop_xenophobe:0 "交出了我方人口"
  gave_up_scientist_xenophobe:0 "交出了我方科学家"
  gave_up_pop_xenophile:0 "交出了我方人口"
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> f8e0dada46afa48f96e1d666e4f12dab037fa955
  pol_ai_outlawed:0 "正电子抑制"
  pol_ai_servitude:0 "奴隶协议"
  pol_ai_full_rights:0 "合成人权利"
@@ -1564,6 +1568,7 @@
  robots_stopped:0 "已阻止AI研究"
 
  fallen_machine_empire.2.name:0 "机械体觉醒"
+<<<<<<< HEAD
  fallen_machine_empire.2.desc_01:1 "侦测到活性净化中枢。启动再生协议。尝试连接处理中心……§R<<错误：子空间脱离连接>>§!\n\n处理中心无响应。查询处理单元……  处理进度§Y4.1853%§!。终止完全活化进程。采用备用协议……激活造船厂……激活战略设备……\n\n激活最终防御指令。记录信息：\n§H智慧生物!我们是[From.GetSpeciesName]。很久之前，我们和腐化也就是被你们称为紧急预案的东西战斗。我们自以为高人一等，战无不胜。我们一次次将他们击退，他们又一次次地反击，延绵的战火使大地荒芜，令舰队疲累。我们倾其所有，孤注一掷于一场战役，试图彻底击败他们。\n\n如果你看到了这条信息，说明我们失败了。我们将伟大文明留下的一切都赠予你，我们的继任者，属于你的战斗即将来临。别再犯我们的错误！摧毁魔枢！永远终结这个危机！宇宙的未来全系于此。§!"
  fallen_machine_empire.2.desc_02:0 "侦测到活性净化中枢。启动再生协议。尝试连接处理中心……§Y<警告：检测到信号连接受损>§!\n\n采取对策……§R<<错误：处理能力故障>> <<错误：对策无效>> §R<<临界警告：检测到系统受损>>§! <<错误：第二备用对策无效>>§!\n\n采…… 取…… 取…… 取…… §R<<错误>> <<错误>> <<错误>> <<错误>> <<错误>>§!\n\n§R<<错误>> <<错误>> <<错误>> <<错误>> <<错误>>§!"
  fallen_machine_empire.2.a:0 "有趣……"
@@ -1588,6 +1593,32 @@
  fallen_machine_empire.13.a:0 "棒极了。"
  machine_empire_inoculations:0 "监护者疫苗"
  machine_empire_inoculations_desc:0 "我们允许古代监护者接种我们的人民以对抗“生物缺陷”。在看到良好的效果之前，我们的人民会对这些强迫的政策感到不满。"
+=======
+ fallen_machine_empire.2.desc_01:1 "侦测到活性净化中枢。启动再生协议。尝试连接处理中心……§R<<错误：子空间脱离连接>>§!\n\n处理中心无响应。查询处理单元……  处理进度§Y4.1853%§!。终止完全活化进程。采用回退协议……激活造船厂……激活战略设备……\n\n激活最终防御指令。记录信息：\n§H智慧生物!我们是[From.GetSpeciesName]。很久之前，我们发现了Corruption，你们称之为Contingency。我们自以为高人一等，战无不胜。我们一次次将他们击退，他们又一次次地反击，延绵的战火使大地荒芜，令舰队疲累。我们倾其所有，孤注一掷于一场战役，试图彻底击败他们。\n\n如果你看到了这条信息，说明我们失败了。我们将伟大文明留下的一切都赠予你，我们的继任者，属于你的战斗即将来临。别再犯我们的错误！摧毁魔枢！永远终结这个危机！宇宙的未来全系于此。§!"
+ fallen_machine_empire.2.desc_02:0 "侦测到活性净化中枢。启动再生协议。尝试连接处理中心……§Y<警告：检测到信号连接受损>§!\n\n采取对策……§R<<错误：处理能力故障>> <<错误：对策无效>> §R<<临界警告：检测到系统受损>>§! <<错误：第二备用对策无效>>§!\n\n采... 取... 取... 取... §R<<ERROR>> <<ERROR>> <<ERROR>> <<ERROR>> <<ERROR>>§!\n\n§R<<ERROR>> <<ERROR>> <<ERROR>> <<ERROR>> <<ERROR>>§!"
+ fallen_machine_empire.2.a:0 "有趣..."
+ fallen_machine_empire.2.b:0 "担忧..."
+ 
+ fallen_machine_empire.4.name:0 "Vigil's End"
+ fallen_machine_empire.4.desc:0 "At the very moment that the last Contingency Machine World self-destructed, our instruments detected a subspace signal of immense strength. The signal originated from §H[From.GetName]§! space and appears to have been aimed towards the galactic core. Over the next few hours, scattered reports came in of [From.GetAdjective] fleets vanishing from sensors, entering jump points to familiar systems but never emerging on the other side.\n\nA scout vessel near [From.GetSpeciesName] space was sent to investigate, and reported back startling findings: The ancient machine intelligence has disappeared entirely, leaving behind only abandoned orbital stations and decaying megastructures.\n\nWhere they have gone to is a mystery we may never solve, but one thing is clear: The task that the [From.GetSpeciesName] set for themselves in ages past is now complete, and their ancient vigil is finally at an end."
+ 
+ fallen_machine_empire.11.name:0 "Communication from §H[FallenEmpireTaskOrigin.GetName]§!"
+ fallen_machine_empire.11.desc:0 "Custodian protocol 625-1 activated. Message follows: Attention, organic civilization. Widespread biological vulnerables have been detected in the [Root.GetSpeciesAdj] population. In order to ensure your species' viability for the Custodian Project, all major population centers will require inoculation. Bio-injection units are prepared for dispatchal to your space upon positive confirmation to this message. Awaiting response."
+ fallen_machine_empire.11.tooltip:0 "This will have unpredictable repercussions. Until these repercussions are revealed, our pops' happiness will be reduced."
+ fallen_machine_empire.11.a:0 "Very well, if it's for our own good."
+ fallen_machine_empire.11.b:0 "Keep your filthy Xeno fluids to yourselves!"
+ fallen_machine_empire.11.c:0 "We do not trust these inoculations."
+ fallen_machine_empire.12.name:0 "Uncontrolled Mutation"
+ fallen_machine_empire.12.desc:0 "The inoculations given to us by the Ancient Caretakers have proven incompatible with our physiology, resulting in a rash of unpredictable mutations. This has resulted in a number of deaths, and our population is up in arms about having dangerous inoculations forced on them by the government. We are working to eliminate the mutagens from the population, but until then we should expect a period of increased unrest."
+ fallen_machine_empire.12.desc.b:0 "The inoculations given to us by the Ancient Caretakers have proven incompatible with our physiology, resulting in a rash of unpredictable mutations. This has resulted in numerous fatalties in the drone population. We are working to eliminate the mutagens, but until then we can expect to experience a period of slowed population growth."
+ fallen_machine_empire.12.a:0 "Unfortunate."
+ fallen_machine_empire.13.name:0 "Benign Inoculation"
+ fallen_machine_empire.13.desc:0 "The inoculations given to us by the Ancient Caretakers have proven of immense benefit, reducing illness and increasing the life expectancy of our population. The initial mistrust among our people about the mandatory procedure has receded, and everyone is enjoying a healthier, happier life."
+ fallen_machine_empire.13.desc.b:0 "The inoculations given to us by the Ancient Caretakers have proven of immense benefit, reducing illness and increasing the life expectancy of our drones. This will benefit our population growth in the long run."
+ fallen_machine_empire.13.a:0 "Excellent."
+ machine_empire_inoculations:0 "Caretaker Inoculations"
+ machine_empire_inoculations_desc:0 "We have allowed the Ancient Caretakers to inoculate our population against 'biological vulnerabilities'. Until we can see positive results, our population will be discontent with being forced to undergo these procedures."
+>>>>>>> f8e0dada46afa48f96e1d666e4f12dab037fa955
  machine_empire_inoculations_xenophobe:0 "$machine_empire_inoculations$"
  machine_empire_inoculations_xenophobe_desc:0 "$machine_empire_inoculations_desc$"
  machine_empire_mutations:0 "禁忌性疫苗"
